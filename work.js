@@ -1,9 +1,7 @@
-function hello() {
-	var str = ""
-	for(i = 0; i < 4; i++){
-		$(".Hello").append(i + "<br/>");
-	}
-	
+function calc_add() {
+		
 }
 
-$(window).load(hello);
+$(window).load(function(){
+	$("#Add").click(calc_add);
+});
