@@ -1,20 +1,32 @@
 {
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"C:\\Users\\Dave\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+				"$file"
+			],
+			"name": "Open with Chrome",
+			"osx":
+			{
+				"cmd":
+				[
+					"open",
+					"-a",
+					"Google Chrome",
+					"$file"
+				]
+			}
+		}
+	],
 	"folders":
 	[
 		{
 			"path": "/F/TrainLeran"
+		},
+		{
+			"path": "/Users/Leran/Programming/practice"
 		}
-	],
-
-	"build_systems":
-    [
-        {
-            "name": "Open with Chrome",
-            "cmd": ["C:\\Users\\Dave\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", "$file"],
-            "osx":
-            {
-            	"cmd": ["open", "-a", "Google Chrome", "$file"]
-            }
-        }
-    ]
+	]
 }
