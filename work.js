@@ -1,5 +1,9 @@
 function hello() {
-	alert("hello");
+	var str = ""
+	for(i = 0; i < 4; i++){
+		$(".Hello").append(i + "<br/>");
+	}
+	
 }
 
-$(document).load(hello);
+$(window).load(hello);

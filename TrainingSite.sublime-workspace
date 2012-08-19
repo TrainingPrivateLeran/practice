@@ -59,13 +59,27 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "[SideBarGit@SublimeText TrainLeran/] git pull\n\n# Improve this command, the output or the tab title by posting here:\n# http://www.sublimetext.com/forum/viewtopic.php?f=5&t=3405\n# Tip: F5 will run the command again and refresh the contents of this tab\n\nFrom https://github.com/TrainingPrivateLeran/practice\n   8d23ac6..54f57d4  master     -> origin/master\nThere is no tracking information for the current branch.\nPlease specify which branch you want to merge with.\nSee git-pull(1) for details\n\n    git pull <remote> <branch>\n\nIf you wish to set tracking information for this branch you can do so with:\n\n    git branch --set-upstream master origin/<branch>",
+			"settings":
+			{
+				"buffer_size": 653,
+				"line_ending": "Windows",
+				"name": "No Title",
+				"scratch": true
+			}
+		}
 	],
-	"build_system": "Install to FireFall",
+	"build_system": "Open with Chrome",
 	"command_palette":
 	{
 		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
 			[
 				"Package Control: install",
 				"Package Control: Install Package"
@@ -92,6 +106,8 @@
 	},
 	"file_history":
 	[
+		"/F/TrainLeran/index.htm",
+		"/F/TrainLeran/TrainingSite.sublime-project",
 		"/C/Games/Red 5 Studios/Firefall/system/gui/components/MainUI/Addons/OmniTrack/OmniTrack.xml",
 		"/C/Games/Red 5 Studios/Firefall/system/gui/components/MainUI/Addons/OmniTrack/OmniTrack.lua",
 		"/C/Users/Dave/Downloads/minecraft/server.properties",
@@ -197,8 +213,50 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SideBarGitBackground": false,
+							"SideBarGitCommand":
+							[
+								"git",
+								"pull"
+							],
+							"SideBarGitIsASideBarGitTab": true,
+							"SideBarGitItem": "F:\\TrainLeran",
+							"SideBarGitModal": true,
+							"SideBarGitNoResults": "No output to show",
+							"SideBarGitSyntaxFile": false,
+							"SideBarGitTitle": "No Title",
+							"SideBarGitToStatusBar": false,
+							"default_dir": "F:\\",
+							"encoding": "UTF-8",
+							"fallback_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
