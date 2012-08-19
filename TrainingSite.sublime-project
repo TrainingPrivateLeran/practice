@@ -4,5 +4,17 @@
 		{
 			"path": "/F/TrainLeran"
 		}
-	]
+	],
+
+	"build_systems":
+    [
+        {
+            "name": "Open with Chrome",
+            "cmd": ["C:\\Users\\Dave\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", "$file"],
+            "osx":
+            {
+            	"cmd": ["open", "-a", "Google Chrome", "$file"]
+            }
+        }
+    ]
 }
