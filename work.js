@@ -1,8 +1,16 @@
-function hello() {
-	var str = ""
-	for(i = 0; i < 4; i++){
-		$(".Hello").append(i + "<br/>");
+function alphabet(start) {
+	var alc = "";
+	for(i = start; i<start+26; i++){
+		alc = alc + String.fromCharCode(i) + ", ";
 	}
+	alc = alc + "<br/>";
+	return alc;
+}
+
+
+
+function hello() {
+	$(".Hello").append(alphabet(97))
 	
 }
 
